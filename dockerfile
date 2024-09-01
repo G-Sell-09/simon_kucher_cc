@@ -11,8 +11,6 @@ RUN apt-get update && apt-get install --no-install-recommends  -y \
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-ENV DATABRICKS_CONFIG_FILE=/workspaces/mcc-research/.databrickscfg
-
 RUN useradd -ms /bin/bash vscode
 USER vscode
 WORKDIR /workspace
