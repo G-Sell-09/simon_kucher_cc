@@ -1,0 +1,21 @@
+# Allowed by the coding challenge
+numpy
+pandas
+scikit-learn
+matplotlib
+scipy
+# searborn
+altair
+plotly
+
+# Styling libraries
+# flake8
+# pep8-naming
+# flake8-annotations
+# black
+# black[jupyter]
+
+# Additional libraries
+# jupyter
+# statsmodels
+# tqdm
